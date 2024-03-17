@@ -11,7 +11,7 @@ async function randomQuote() {
     console.log(quote.content);
     quote1.innerText = quote.content;
     console.log(`- ${quote.author}`);
-    writer.innerText = "- " + quote.author;
+    writer.innerText = `-` + quote.author;
   }
 button.addEventListener('click' , function() {
 
